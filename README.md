@@ -35,3 +35,9 @@ http://op-group1-swiftservehd-1.dens.tv/s/s07/01.m3u8
 #KODIPROP:inputstream.adaptive.license_key=a79a188263724bfcaafc4a7c3b3cd8ce:4d4732d93e6720de0ef884d7106e14f7
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_sctv_ver3.png" group-title="Indonesia TV",SCTV (FMX)
 https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key=334950781f60a66f5e58324b70ac675d:73caca97be8999ce9cfeb3babad8669d
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 tvg-logo="https://www.visionplus.id/images/repository/585/585-LOGO-m.png" group-title="Indonesia TV",Transtv (V+🟦)
+https://cempedak-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
