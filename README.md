@@ -39,6 +39,6 @@ https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e6475
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
 #EXTVLCOPT:http-referrer=https://visionplus.id
-#EXTINF:-1 group-title="Indonesia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_115.png",ANTV
+#EXTINF:-1 group-title="Indonesia TV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_115.png",ANTV
 #https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 http://op-group1-swiftservehd-1.dens.tv/s/s07/01.m3u8
