@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Link Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-film"></i> Movie Link Manager</h1>
+            <p>Kelola dan bagikan link film favorit Anda</p>
+        </header>
+
+        <main class="main-content">
+            <!-- Form untuk menambah link film -->
+            <section class="add-movie-section">
+                <h2><i class="fas fa-plus"></i> Tambah Film Baru</h2>
+                <form id="movieForm" class="movie-form">
+                    <div class="form-group">
+                        <label for="movieTitle">Judul Film:</label>
+                        <input type="text" id="movieTitle" name="title" required placeholder="Masukkan judul film">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="movieLink">Link Film:</label>
+                        <input type="url" id="movieLink" name="link" required placeholder="https://example.com/movie">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="movieCategory">Kategori:</label>
+                        <select id="movieCategory" name="category">
+                            <option value="action">Action</option>
+                            <option value="drama">Drama</option>
+                            <option value="comedy">Comedy</option>
+                            <option value="horror">Horror</option>
+                            <option value="romance">Romance</option>
+                            <option value="sci-fi">Sci-Fi</option>
+                            <option value="documentary">Documentary</option>
+                            <option value="other">Lainnya</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="movieDescription">Deskripsi:</label>
+                        <textarea id="movieDescription" name="description" placeholder="Deskripsi singkat film"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i> Simpan Film
+                    </button>
+                </form>
+            </section>
+
+            <!-- Filter dan pencarian -->
+            <section class="filter-section">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Cari film...">
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">Semua</button>
+                    <button class="filter-btn" data-category="action">Action</button>
+                    <button class="filter-btn" data-category="drama">Drama</button>
+                    <button class="filter-btn" data-category="comedy">Comedy</button>
+                    <button class="filter-btn" data-category="horror">Horror</button>
+                    <button class="filter-btn" data-category="romance">Romance</button>
+                    <button class="filter-btn" data-category="sci-fi">Sci-Fi</button>
+                    <button class="filter-btn" data-category="documentary">Documentary</button>
+                </div>
+            </section>
+
+            <!-- Daftar film -->
+            <section class="movies-section">
+                <h2><i class="fas fa-list"></i> Daftar Film</h2>
+                <div id="moviesList" class="movies-grid">
+                    <!-- Film akan ditampilkan di sini -->
+                </div>
+            </section>
+
+            <!-- Player modal -->
+            <div id="playerModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 id="modalTitle">Judul Film</h3>
+                    <div class="video-container">
+                        <video id="videoPlayer" controls>
+                            <source src="" type="application/x-mpegURL">
+                            Browser Anda tidak mendukung pemutaran video.
+                        </video>
+                    </div>
+                    <div class="modal-actions">
+                        <button id="copyLinkBtn" class="btn btn-secondary">
+                            <i class="fas fa-copy"></i> Salin Link
+                        </button>
+                        <button id="shareBtn" class="btn btn-primary">
+                            <i class="fas fa-share"></i> Bagikan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Movie Link Manager. Dibuat dengan ❤️</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
