@@ -82,10 +82,6 @@ GitSkins stat widgets will use the **Neon** theme.
       media="(prefers-color-scheme: light)"
       srcset="https://raw.githubusercontent.com/arifhaxn/arifhaxn/output/snake-dark.svg"
     />
-    <img
-      src=""
-      alt="AzharJr GitHub contribution heatmap"
-    />
   </picture>
 </p>
 
