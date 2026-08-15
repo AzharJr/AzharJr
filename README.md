@@ -121,7 +121,8 @@ Contact and social links will appear here.
       alt="AzharJr social section"
     />
   </picture>
-  <img src="https://www.gitskins.com/api/section/portrait?username=azharjr&theme=github-dark&v=profile-preview-1&style=terminal&mode=dark" width="300">
+  <br><br>
+  <img src="https://www.gitskins.com/api/section/portrait?username=azharjr&theme=github-dark&v=profile-preview-1&style=terminal&mode=dark" width="250" alt="AzharJr Portrait">
 </p>
 
 <!-- Sections: Header, About Me, Skills, GitHub Stats, GitHub Activity, Projects, Connect -->
