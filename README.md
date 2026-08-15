@@ -29,6 +29,13 @@ GitSkins stat widgets will use the **Terminal** theme.
   <img src="https://www.gitskins.com/api/section/stats?username=AzharJr&theme=github-dark&style=terminal" alt="AzharJr stats section" />
 </p>
 
+## GitHub Activity
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/heatmap?username=azharjr&theme=neon&style=jet" alt="AzharJr GitHub contribution heatmap" />
+  <br><br>
+  <img src="https://www.gitskins.com/showcase/space-shooter.gif" alt="Space shooter animation" />
+</p>
+
 ## Projects
 Highlights repositories as proof of work.
 <p align="center">
@@ -44,4 +51,4 @@ Contact and social links will appear here.
   <img src="https://www.gitskins.com/api/section/portrait?username=azharjr&theme=github-dark&v=profile-preview-1&style=terminal&mode=dark" width="250" alt="AzharJr Portrait">
 </p>
 
-<!-- Sections: Header, About Me, Skills, GitHub Stats, Projects, Connect -->
+<!-- Sections: Header, About Me, Skills, GitHub Stats, GitHub Activity, Projects, Connect -->
