@@ -33,7 +33,8 @@ GitSkins stat widgets will use the **Terminal** theme.
 <p align="center">
   <img src="https://www.gitskins.com/api/section/heatmap?username=azharjr&theme=neon&style=jet" alt="AzharJr GitHub contribution heatmap" />
   <br><br>
-  <img src="https://www.gitskins.com/showcase/space-shooter.gif" alt="Space shooter animation" />
+  <!-- Menambahkan ?v=1 di akhir link untuk memaksa GitHub memutar animasinya -->
+  <img src="https://www.gitskins.com/showcase/space-shooter.gif?v=1" alt="Space shooter animation" />
 </p>
 
 ## Projects
