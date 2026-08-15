@@ -12,10 +12,10 @@ Hi, I'm **AzharJr**. This README is tuned for **open source** with a Neon visual
   <picture>
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://www.gitskins.com/api/section/wordmark?username=azharr&theme=github-dark&v=profile-preview-2&style=terminal&mode=dark"
+      srcset="https://www.gitskins.com/api/section/wordmark?username=AzharJr&theme=neon&mode=light"
     />
     <img
-      src="https://www.gitskins.com/api/section/wordmark?username=azharr&theme=github-dark&v=profile-preview-2&style=terminal&mode=dark"
+      src="https://www.gitskins.com/api/section/hero?username=AzharJr&theme=neon&mode=dark"
       alt="AzharJr hero section"
     />
   </picture>
@@ -80,7 +80,11 @@ GitSkins stat widgets will use the **Neon** theme.
   <picture>
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/arifhaxn/arifhaxn/output/snake-dark.svg"
+      srcset="https://www.gitskins.com/api/section/heatmap?username=AzharJr&theme=neon&mode=light"
+    />
+    <img
+      src="https://www.gitskins.com/api/section/heatmap?username=AzharJr&theme=neon&mode=dark"
+      alt="AzharJr GitHub contribution heatmap"
     />
   </picture>
 </p>
