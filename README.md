@@ -12,10 +12,10 @@ Hi, I'm **AzharJr**. This README is tuned for **open source** with a Neon visual
   <picture>
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://www.gitskins.com/api/section/wordmark?username=AzharJr&theme=neon&mode=light"
+      srcset="https://www.gitskins.com/api/section/wordmark?username=azharr&theme=github-dark&v=profile-preview-2&style=terminal&mode=dark"
     />
     <img
-      src="https://www.gitskins.com/api/section/hero?username=AzharJr&theme=neon&mode=dark"
+      src="https://www.gitskins.com/api/section/wordmark?username=azharr&theme=github-dark&v=profile-preview-2&style=terminal&mode=dark"
       alt="AzharJr hero section"
     />
   </picture>
