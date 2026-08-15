@@ -80,10 +80,10 @@ GitSkins stat widgets will use the **Neon** theme.
   <picture>
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://www.gitskins.com/api/section/heatmap?username=AzharJr&theme=neon&mode=light"
+      srcset="https://raw.githubusercontent.com/arifhaxn/arifhaxn/output/snake-dark.svg"
     />
     <img
-      src="https://www.gitskins.com/api/section/heatmap?username=AzharJr&theme=neon&mode=dark"
+      src=""
       alt="AzharJr GitHub contribution heatmap"
     />
   </picture>
